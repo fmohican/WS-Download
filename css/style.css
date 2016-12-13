@@ -1,0 +1,128 @@
+body {
+	background: #5C6BC0;
+	padding-top: 70px;
+}
+
+#main {
+	margin: auto;
+	background-color:whitesmoke;
+	border-radius: 5px;
+	width:50%;
+	padding:10px;
+}
+
+#wapper {
+margin: 0 auto auto 0;
+border-radius: 5px;
+background: whitesmoke;
+width: 90%;
+margin-left: auto;
+    padding: 15px;
+}
+
+.alert {
+    width: 75%;
+    position: fixed;
+    top: 90px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999999;
+}
+
+.cat {
+    position: absolute;
+    color: #FFF;
+    padding: 3px 3px 1px 3px;
+    font-size: 12px;
+    border-radius: 3px;
+    top: 5px;
+    background: none repeat scroll 0% 0% #49bafc;
+    right: 5px
+}
+
+.suspendat {
+	background-color: #FF0500 !important;
+}
+
+.complet {
+	background-color: limegreen !important;
+}
+
+.OVA {
+	background-color: darkcyan !important;
+}
+
+.ONA {
+	background-color: darkcyan !important;
+}
+
+.movie {
+	background-color: steelblue !important;
+}
+
+.size {
+	width: 51px;
+	position: absolute;
+	z-index: 10;
+	color: #FFF;
+    padding: 3px 3px 1px 3px;
+	font-size: 12px;
+	border-radius: 3px;
+	top: 5px;
+	left: 5px;
+	font-weight:700;
+	background: none repeat scroll 0% 0% crimson;
+}
+
+.eps {
+    width: 20px;
+    position: absolute;
+    z-index: 10;
+    color: #FFF;
+    padding: 3px 3px 1px 3px;
+    font-size: 12px;
+    border-radius: 3px;
+    top: 35px;
+    left: 5px;
+    font-weight: 700;
+    background: none repeat scroll 0% 0% #673AB7;
+}
+
+.parteneriat a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+#item {
+	float: left;
+	margin: 5px;
+	border: 2px solid #49bafc;
+	border-radius: 5px;
+	position: relative;
+	width: 175px;
+	height: 235px;
+	overflow: hidden;
+}
+
+#item a {
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+#item img {
+	width: 100%;
+	height: 100%;
+}
+
+#item p {
+    margin: 0px;
+    font-size: 13px;
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    position: absolute;
+    bottom: 0px;
+    z-index: 200;
+    padding: 4px 6px 5px;
+    width: 100%;
+    text-align: center;
+}
